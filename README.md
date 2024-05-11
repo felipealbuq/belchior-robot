@@ -14,12 +14,16 @@ https://github.com/felipealbuq/BelchiorRobot.git
 Open the file BelchiorRobot.blend and see the result. In this project, textures, shading and animations were worked on.
 
 
-## Animation Video from Blender Renderer
+## Animation from Blender Renderer
 
-Below, you can see the animation video made with images from the VideoFrames folder.
+Below, you can see the animation Robot made with images from the VideoFrames folder.
 
-https://github.com/felipealbuq/BelchiorRobot/assets/60708056/275df2f5-f7a7-416a-9c93-c351b75f11e5
+![Imagem](assets/BelchiorRobot.gif)
 
+
+## ThreeJS Preview
+
+![Imagem](assets/threejsPreview.gif)
 
 
 ## Learn More
