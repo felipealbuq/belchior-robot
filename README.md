@@ -1,4 +1,4 @@
-# This is a [Blender](https://www.blender.org/) project.
+# This is a [Blender](https://www.blender.org/) and [ThreeJS](https://threejs.org/) project.
 
 ![Imagem](assets/BelchiorRobot.png)
 
@@ -31,5 +31,9 @@ To learn more about Blender, take a look at the following resources:
 - [Blender Documentation](https://docs.blender.org/) - learn about Blender.
 
 - [Blender Studio](https://studio.blender.org/welcome/) - Blender tutorials.
+
+- [ThreeJS Documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) - Learn about ThreeJS.
+
+- [ThreeJS Examples](https://threejs.org/examples/#webgl_animation_keyframes) - ThreeJS Examples.
 
 
