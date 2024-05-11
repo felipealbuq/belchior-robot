@@ -18,12 +18,12 @@ Open the file BelchiorRobot.blend and see the result. In this project, textures,
 
 Below, you can see the animation Robot made with images from the VideoFrames folder.
 
-![Imagem](assets/BelchiorRobot.gif)
+https://github.com/felipealbuq/belchior-robot/assets/60708056/8beea6b5-7d20-4341-9189-7a315ad63d41
 
 
 ## ThreeJS Preview
 
-![Imagem](assets/threejsPreview.gif)
+https://github.com/felipealbuq/belchior-robot/assets/60708056/dc55616b-e7f7-4de3-b1a6-66936d3c73da
 
 
 ## Learn More
