@@ -16,8 +16,6 @@ Open the file BelchiorRobot.blend and see the result. In this project, textures,
 
 ## Animation from Blender Renderer
 
-Below, you can see the animation Robot made with images from the VideoFrames folder.
-
 https://github.com/felipealbuq/belchior-robot/assets/60708056/8beea6b5-7d20-4341-9189-7a315ad63d41
 
 
