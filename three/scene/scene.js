@@ -27,7 +27,7 @@ function init() {
   scene = new THREE.Scene()
 
   new RGBELoader()
-    .setPath('textures/')
+    .setPath('/three/textures/')
     .load('royal_esplanade_1k.pic', function (texture) {
 
       texture.mapping = THREE.EquirectangularReflectionMapping
@@ -38,7 +38,7 @@ function init() {
 
       render()
 
-      let loader = new GLTFLoader().setPath('glb/')
+      let loader = new GLTFLoader().setPath('/three/glb/')
       loader.load('BelchiorRobot.glb', async function (gltfLoaded) {
         gltf = gltfLoaded
 
