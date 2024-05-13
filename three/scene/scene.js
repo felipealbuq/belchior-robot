@@ -19,8 +19,7 @@ function init() {
   document.body.appendChild(container)
 
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.25, 20)
-  camera.position.set(0, 3.1, 4)
-  camera.up = new THREE.Vector3(0, 0, 0)
+  camera.position.set(0, 1.5, 4.1)
 
   ambientLight = new THREE.AmbientLight(0xffffff, 0.3)
 
@@ -45,6 +44,8 @@ function init() {
         mixer = new THREE.AnimationMixer(gltf.scene)
         mixer.clipAction(gltf.animations[0]).play()
 
+        gltf.scene.position.set(0, -1.5, 0)
+
         scene.add(gltf.scene)
         scene.add(ambientLight)
 
@@ -65,9 +66,9 @@ function init() {
   container.appendChild(renderer.domElement)
 
   controls = new OrbitControls(camera, renderer.domElement)
-  controls.enableRotate = false
+  controls.enableRotate = true
   controls.enableDamping = true
-  controls.minDistance = 4
+  controls.minDistance = 2
   controls.maxDistance = 8
   controls.target.set(0, 0.1, 0)
   controls.update()
@@ -87,8 +88,7 @@ function createPanel() {
   materialFolder.addColor({ paint: '#e7b33f' }, 'paint').onChange((value) => changeMaterialColor(value));
 
   const cameraFolder = gui.addFolder('Camera')
-  cameraFolder.add(camera.position, 'x', -5, 5)
-  cameraFolder.add(camera.position, 'y', 0, 5)
+  cameraFolder.add(camera.position, 'y', -3, 5)
 
   const animationFolder = gui.addFolder('Animations')
   animationFolder.add({ None: () => toggleAnimation(false) }, 'None')
