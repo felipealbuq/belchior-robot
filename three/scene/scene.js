@@ -89,6 +89,7 @@ function createPanel() {
 
   const cameraFolder = gui.addFolder('Camera')
   cameraFolder.add(camera.position, 'y', -3, 5)
+  cameraFolder.add(camera.position, 'z', 1, 7)
 
   const animationFolder = gui.addFolder('Animations')
   animationFolder.add({ None: () => toggleAnimation(false) }, 'None')
