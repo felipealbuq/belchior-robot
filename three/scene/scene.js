@@ -44,7 +44,7 @@ function init() {
         mixer = new THREE.AnimationMixer(gltf.scene)
         mixer.clipAction(gltf.animations[0]).play()
 
-        gltf.scene.position.set(0, -1.5, 0)
+        gltf.scene.position.set(0, -1.65, 0)
 
         scene.add(gltf.scene)
         scene.add(ambientLight)
