@@ -26,7 +26,7 @@ https://github.com/felipealbuq/belchior-robot/assets/60708056/dc55616b-e7f7-4de3
 
 ## Learn More
 
-To learn more about Blender, take a look at the following resources:
+To learn more about Blender, take a look at the following resources:  
 
 - [Blender Documentation](https://docs.blender.org/) - learn about Blender.
 
