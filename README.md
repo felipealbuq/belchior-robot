@@ -11,7 +11,7 @@ First, clone this repository:
 https://github.com/felipealbuq/BelchiorRobot.git
 ```
 
-Open the file BelchiorRobot.blend and see the result. In this project, textures, shading and animations were worked on.
+Open the file BelchiorRobot.blend in the objects folder and see the result. In this project, textures, shading and animations were worked on.
 
 
 ## Animation from Blender Renderer
